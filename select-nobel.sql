@@ -42,7 +42,7 @@ where winner = 'PETER GRÜNBERG';
 select * from nobel
 where winner = 'EUGENE O\'NEILL';
 
-select * from nobel
+select winner, yr, subject from nobel
 where winner like 'Sir%' order by yr desc, winner asc;
 
 SELECT winner, subject
